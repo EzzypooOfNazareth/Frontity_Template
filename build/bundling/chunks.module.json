@@ -1,0 +1,81 @@
+{
+  "errors": [],
+  "warnings": [],
+  "version": "4.41.5",
+  "hash": "1674fbf2cd2918672b4c",
+  "publicPath": "/static/",
+  "outputPath": "C:\\Users\\emoore\\test-frontity\\build\\static",
+  "assetsByChunkName": {
+    "list": "list.module.js",
+    "test-frontity": "test-frontity.module.js"
+  },
+  "assets": [
+    {
+      "name": "list.module.js",
+      "size": 50480,
+      "chunks": [
+        "list"
+      ],
+      "chunkNames": [
+        "list"
+      ],
+      "info": {},
+      "emitted": false
+    },
+    {
+      "name": "test-frontity.module.js",
+      "size": 5340134,
+      "chunks": [
+        "test-frontity"
+      ],
+      "chunkNames": [
+        "test-frontity"
+      ],
+      "info": {},
+      "emitted": false
+    }
+  ],
+  "filteredAssets": 0,
+  "entrypoints": {
+    "test-frontity": {
+      "chunks": [
+        "test-frontity"
+      ],
+      "assets": [
+        "test-frontity.module.js"
+      ],
+      "children": {},
+      "childAssets": {}
+    }
+  },
+  "namedChunkGroups": {
+    "test-frontity": {
+      "chunks": [
+        "test-frontity"
+      ],
+      "assets": [
+        "test-frontity.module.js"
+      ],
+      "children": {},
+      "childAssets": {}
+    },
+    "list": {
+      "chunks": [
+        "list"
+      ],
+      "assets": [
+        "list.module.js"
+      ],
+      "children": {},
+      "childAssets": {}
+    }
+  },
+  "logging": {
+    "webpack.buildChunkGraph.visitModules": {
+      "entries": [],
+      "filteredEntries": 5,
+      "debug": false
+    }
+  },
+  "children": []
+}
