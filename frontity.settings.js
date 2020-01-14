@@ -2,7 +2,7 @@ const settings = {
   "name": "test-frontity",
   "state": {
     "frontity": {
-      "url": "https://test.frontity.io",
+      "url": "https://frontitytesting.local",
       "title": "Test Frontity Blog",
       "description": "WordPress installation for Frontity development"
     }
@@ -18,16 +18,12 @@ const settings = {
               "/"
             ],
             [
-              "Nature",
-              "/category/nature/"
-            ],
-            [
               "Travel",
               "/category/travel/"
             ],
             [
-              "Japan",
-              "/tag/japan/"
+              "Urban Life",
+              "/category/urban-life/"
             ],
             [
               "About Us",
@@ -45,7 +41,7 @@ const settings = {
       "name": "@frontity/wp-source",
       "state": {
         "source": {
-          "api": "https://test.frontity.io/wp-json"
+          "api": "http://frontitytesting.local/wp-json"
         }
       }
     },
